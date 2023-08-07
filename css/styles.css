@@ -1,0 +1,244 @@
+/* ============= VARIABLES ============= */
+:root {
+  --primary-color: #4d5ae5;
+  --accent-color: #404bbf;
+  --dark: #2e2f42;
+  --text-color: #434455;
+  --light-color: #f4f4fd;
+  --white: #ffffff;
+}
+/* ============= /VARIABLES ============= */
+
+/* ============= COMMON STYLES ============= */
+.list {
+  list-style-type: none;
+}
+
+.link {
+  text-decoration: none;
+}
+
+button {
+  cursor: pointer;
+}
+
+body {
+  font-family: 'Roboto', sans-serif;
+  color: var(--text-color);
+  background-color: var(--white);
+}
+
+.section-title {
+  font-size: 36px;
+  font-weight: 700;
+  line-height: 1.11;
+  letter-spacing: 0.72px;
+  text-transform: capitalize;
+  text-align: center;
+  color: var(--dark);
+}
+
+.logo {
+  font-family: 'Raleway', sans-serif;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 800;
+  line-height: 1.17;
+  letter-spacing: 0.54px;
+  text-transform: uppercase;
+  color: var(--primary-color);
+}
+
+.link:hover,
+.link:focus {
+  color: var(--accent-color);
+}
+
+/* ============= /COMMON STYLES ============= */
+
+/* ============= HEADER ============= */
+
+.page-header {
+  background: var(--white);
+}
+
+.logo-color {
+  color: var(--dark);
+}
+
+.logo-color:hover,
+.logo-color:focus {
+  color: var(--accent-color);
+}
+
+/* .menu {
+  
+} */
+
+.menu-link {
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 1.5;
+  letter-spacing: 0.32px;
+  color: var(--dark);
+}
+
+.contacts {
+  font-style: normal;
+}
+
+.contact-link {
+  color: var(--text-color);
+  font-size: 16px;
+  font-style: normal;
+  line-height: 1.5;
+  letter-spacing: 0.32px;
+}
+
+/* ============= /HEADER ============= */
+
+/* ============= HERO ================= */
+
+.hero {
+  background: var(--dark);
+}
+
+.main-title {
+  font-family: Roboto;
+  font-size: 56px;
+  font-weight: 700;
+  line-height: 1.07;
+  letter-spacing: 1.12px;
+  text-align: center;
+  color: var(--white);
+}
+
+.hero-btn {
+  font-family: inherit;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 1.5;
+  letter-spacing: 0.64px;
+  color: var(--white);
+  background: var(--primary-color);
+}
+
+.hero-btn:hover,
+.hero-btn:focus {
+  background: var(--accent-color);
+}
+
+/* ============= /HERO ================= */
+
+/* ============= BENEFIT================ */
+
+.benefit-title {
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 1.2;
+  letter-spacing: 0.4px;
+  color: var(--dark);
+}
+
+.benefit-text {
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.32px;
+}
+
+/* ============= /BENEFIT================ */
+
+/* ============= DIRECTION ============== */
+
+/* ============= /DIRECTION ============== */
+
+/* ============= TEAM ============== */
+
+.team {
+  background: #f4f4fd;
+}
+
+.team-title {
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 1.2;
+  letter-spacing: 0.4px;
+  color: var(--dark);
+}
+
+.team-text {
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.32px;
+}
+
+/* ============= /TEAM ============== */
+
+.team-item {
+  background-color: var(--white);
+}
+
+/* ============= FOOTER ============== */
+
+.page-footer {
+  background: var(--dark);
+}
+
+.footer-logo-text {
+  color: var(--light-color);
+}
+
+.footer-logo-text:hover,
+.footer-logo-text:focus {
+  color: var(--primary-color);
+}
+
+.footer-text {
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.32px;
+  color: var(--light-color);
+}
+
+/* ============= /FOOTER ============== */
+
+/* ============ PORTFOLIO============== */
+
+.projects {
+  background: var(--white);
+}
+
+.filter-btn {
+  font-family: inherit;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 1.5;
+  letter-spacing: 0.64px;
+  color: var(--primary-color);
+  background: var(--light-color);
+}
+
+.filter-btn:hover,
+.filter-btn:focus {
+  background: var(--accent-color);
+  color: var(--white);
+}
+
+/* .project-item {
+} */
+
+.project-title {
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 1.2;
+  letter-spacing: 0.4px;
+  color: var(--dark);
+}
+
+.project-text {
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.32px;
+  color: var(--text-color);
+}

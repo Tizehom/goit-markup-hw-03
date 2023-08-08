@@ -77,12 +77,51 @@ body {
   color: var(--accent-color);
 }
 
+.section {
+  padding-top: 60px;
+  padding-bottom: 60px;
+}
+
+.container {
+  width: 1158px;
+  padding-left: 15px;
+  padding-right: 15px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  border: 0;
+  padding: 0;
+  white-space: nowrap;
+  clip-path: inset(100%);
+  clip: rect(0 0 0 0);
+  overflow: hidden;
+}
+
 /* ============= /COMMON STYLES ============= */
 
 /* ============= HEADER ============= */
 
 .page-header {
   background: var(--white);
+  padding-top: 24px;
+  padding-bottom: 24px;
+}
+
+.page-header-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.header-navigation {
+  display: flex;
+  align-items: center;
 }
 
 .logo-color {
@@ -94,9 +133,11 @@ body {
   color: var(--accent-color);
 }
 
-/* .menu {
-  
-} */
+.menu {
+  display: flex;
+  margin-left: 76px;
+  column-gap: 40px;
+}
 
 .menu-link {
   font-size: 16px;
@@ -109,6 +150,11 @@ body {
 
 .contacts {
   font-style: normal;
+}
+
+.contact-list {
+  display: flex;
+  column-gap: 40px;
 }
 
 .contact-link {

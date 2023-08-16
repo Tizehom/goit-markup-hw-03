@@ -202,6 +202,7 @@ body {
 
 .hero-btn {
   display: block;
+  margin: 0 auto;
   min-width: 169px;
   font-family: inherit;
   font-size: 16px;
@@ -210,7 +211,6 @@ body {
   letter-spacing: 0.64px;
   color: var(--white);
   background: var(--primary-color);
-  display: inline-flex;
   padding: 16px 32px;
   align-items: flex-start;
   gap: 10px;
@@ -284,6 +284,7 @@ body {
 .team-item {
   flex-basis: calc((100% - 3 * 24px) / 4);
   background-color: var(--white);
+  border-radius: 0px 0px 4px 4px;
 }
 
 .team-text-box {

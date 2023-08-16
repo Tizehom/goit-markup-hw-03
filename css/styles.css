@@ -79,8 +79,8 @@ body {
 }
 
 .section {
-  padding-top: 60px;
-  padding-bottom: 60px;
+  padding-top: 120px;
+  padding-bottom: 120px;
 }
 
 .container {
@@ -124,6 +124,10 @@ body {
   align-items: center;
 }
 
+.logo-header {
+  margin-right: 76px;
+}
+
 .logo-color {
   color: var(--dark);
 }
@@ -135,8 +139,7 @@ body {
 
 .menu {
   display: flex;
-  margin-left: 76px;
-  column-gap: 40px;
+  gap: 40px;
 }
 
 .menu-link {
@@ -157,7 +160,7 @@ body {
 
 .contact-list {
   display: flex;
-  column-gap: 40px;
+  gap: 40px;
 }
 
 .contact-link {
@@ -198,6 +201,8 @@ body {
 }
 
 .hero-btn {
+  display: block;
+  min-width: 169px;
   font-family: inherit;
   font-size: 16px;
   font-weight: 500;
@@ -364,7 +369,7 @@ body {
   color: var(--primary-color);
   background: var(--light-color);
   padding: 12px 24px;
-  border: none;
+  border: 1px solid #e7e9fc;
   border-radius: 4px;
   box-shadow: 0px 2px 2px 0px rgba(0, 0, 0, 0.12),
     0px 2px 1px 0px rgba(0, 0, 0, 0.08), 0px 3px 1px 0px rgba(0, 0, 0, 0.1);
@@ -374,6 +379,7 @@ body {
 .filter-btn:focus {
   background: var(--accent-color);
   color: var(--white);
+  border: 1px solid transparent;
 }
 
 .project-list {
